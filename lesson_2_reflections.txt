@@ -1,24 +1,45 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
-Git creates background infrastructure it will need in order to begin a VC task.
-It doesn't commit anything when you run git init though.
+    Git creates the background infrastructure it will need in order to begin a VC task.
+    It doesn't commit anything when you run git init though.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-It is a holding place for files to be committed. I don't know what value it offers.
-Maybe to force you to think about what logical changes you're making right here...
+    It is a holding place for files to be committed. I don't know what value it offers.
+    Maybe to force you to think about what logical changes you're making right here...
+    Also having a staging area allows you to commit some changes while making other edits
+        that you don't necessarily want to commit just yet.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    You can run git diff --staged to check that right before committing
+	Yet you can still be working on other things that don't immediately get committed
+			as long as they are in other files...
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When you want to develop various versions of your code in parallel
+	Branches help you to keep your versions and history organized
+
 How do the diagrams help you visualize the branch structure?
+
+    You can see the ancestry structure in a network graph. Very helpful.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Combines the changes that were made along multiple branches
+		I suspect this could go badly at times if people step on each others' toes
+		But in general, it's pretty cool.
+		Should work well if developers are modifying separate functions
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Pros: Git automatically merges when it has a pretty good idea it knows what you want.
+	Pros: When it's ambiguous, Git tells you so that you can make your own decision
+	Cons: Sometimes you gotta do it yourself. 
+	Pros: But overall it seems pretty smart...

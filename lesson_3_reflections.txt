@@ -9,7 +9,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Same reason you want to commit changes manually rather than automatically.
+    Perhaps you are working on a new branch while others are also editing.
+        You don't want their code to create conflicts with yours while you are working on it.
+        Instead you want to resolve collisions at the time you choose to commit, 
+            so that you can choose how to resolve them, if necessary.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?

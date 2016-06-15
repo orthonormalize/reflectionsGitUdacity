@@ -27,7 +27,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    that way your local Git knows what the reference point is WRT the remote
+    so it effectively creates two branches from that point: master and origin/master
+    Then when merging, it has the correct reference point for checking version differences.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

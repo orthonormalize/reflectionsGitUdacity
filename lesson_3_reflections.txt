@@ -34,7 +34,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	How? I'd use the way I've always done it: lots of different file names with informative comments
+    Easier: Not having to learn all these Git commands and tools
+	Harder: It requires a lot of concentration to successfully do version control in your head.
+		So I think overall Git will be a better method, once I become more comfortable with it.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

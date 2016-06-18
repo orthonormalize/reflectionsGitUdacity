@@ -42,4 +42,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Anytime you want to either try something new or if you want to share options with others
+	Advantage of using a separate branch:
+		You leave the original branch clean, until others have approved the change.
+	Disadvantage:
+		The commit history gets messier.
+		Plus some changes don't really require approval, like fixing typos.
